@@ -1,4 +1,6 @@
-# pingfederate-deploy
+# PingFederate Deployment
+
+An infrastructure as code repository used to deploy a PingFederate instance to AWS.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
