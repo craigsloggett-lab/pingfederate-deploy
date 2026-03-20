@@ -79,7 +79,6 @@ No modules.
 | <a name="input_ec2_ami_owner"></a> [ec2\_ami\_owner](#input\_ec2\_ami\_owner) | AWS account ID of the AMI owner. | `string` | n/a | yes |
 | <a name="input_ec2_key_pair_name"></a> [ec2\_key\_pair\_name](#input\_ec2\_key\_pair\_name) | Name of an existing EC2 key pair for SSH access. | `string` | n/a | yes |
 | <a name="input_instance_type"></a> [instance\_type](#input\_instance\_type) | EC2 instance type for the PingFederate instance. | `string` | `"t3.medium"` | no |
-| <a name="input_pingfederate_admin_password"></a> [pingfederate\_admin\_password](#input\_pingfederate\_admin\_password) | Initial admin password for PingFederate. | `string` | n/a | yes |
 | <a name="input_pingfederate_allowed_cidrs"></a> [pingfederate\_allowed\_cidrs](#input\_pingfederate\_allowed\_cidrs) | External CIDR blocks allowed to access PingFederate (ports 9999 and 9031). | `list(string)` | `[]` | no |
 | <a name="input_pingfederate_license_path"></a> [pingfederate\_license\_path](#input\_pingfederate\_license\_path) | Local path to the PingFederate license file. | `string` | n/a | yes |
 | <a name="input_pingfederate_subdomain"></a> [pingfederate\_subdomain](#input\_pingfederate\_subdomain) | Subdomain for the PingFederate DNS record. | `string` | `"pingfed"` | no |
