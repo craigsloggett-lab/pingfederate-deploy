@@ -17,7 +17,6 @@ resource "aws_instance" "pingfederate" {
     s3_bucket                = aws_s3_bucket.artifacts.id
     pingfederate_zip_key     = aws_s3_object.pingfederate_zip.key
     pingfederate_license_key = aws_s3_object.pingfederate_license.key
-    admin_password           = var.pingfederate_admin_password
   })
 
   tags = merge(var.common_tags, { Name = "${var.project_name}-pingfederate" })

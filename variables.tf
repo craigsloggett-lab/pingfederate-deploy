@@ -40,12 +40,6 @@ variable "pingfederate_license_path" {
   description = "Local path to the PingFederate license file."
 }
 
-variable "pingfederate_admin_password" {
-  type        = string
-  description = "Initial admin password for PingFederate."
-  sensitive   = true
-}
-
 # General
 
 variable "common_tags" {

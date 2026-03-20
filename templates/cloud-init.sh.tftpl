@@ -99,9 +99,6 @@ DOCKER
   log "Starting the PingFederate container."
   docker run -d --restart always \
     --publish 9031:9031 --publish 9999:9999 \
-    --env PING_IDENTITY_ACCEPT_EULA=YES \
-    --env CREATE_INITIAL_ADMIN_USER=true \
-    --env "PING_IDENTITY_PASSWORD=${admin_password}" \
     --name pingfederate \
     pingfederate:latest
 

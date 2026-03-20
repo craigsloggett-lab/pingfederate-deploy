@@ -9,4 +9,3 @@ ec2_ami_name      = "ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-amd64-server-*
 pingfederate_allowed_cidrs  = ["0.0.0.0/0"]
 pingfederate_zip_path       = "/path/to/pingfederate-13.0.zip"
 pingfederate_license_path   = "/path/to/PingFederate.lic"
-pingfederate_admin_password = "changeme"
