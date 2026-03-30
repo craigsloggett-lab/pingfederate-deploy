@@ -1,4 +1,4 @@
-project_name      = "example"
+project_name      = "lab"
 route53_zone_name = "example.com"
 vpc_name          = "my-vpc"
 
@@ -6,6 +6,9 @@ ec2_key_pair_name = "my-key-pair"
 ec2_ami_owner     = "123456789012"
 ec2_ami_name      = "ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-amd64-server-*"
 
-pingfederate_allowed_cidrs  = ["0.0.0.0/0"]
-pingfederate_zip_path       = "/path/to/pingfederate-13.0.zip"
-pingfederate_license_path   = "/path/to/PingFederate.lic"
+s3_artifact_bucket       = "my-bucket-123456789012-us-east-1-an"
+pingfederate_zip_key     = "pingfederate-13.0.1.zip"
+pingfederate_license_key = "PingFederate-13.0-Development.lic"
+
+nlb_internal               = false
+pingfederate_allowed_cidrs = ["0.0.0.0/0"]
