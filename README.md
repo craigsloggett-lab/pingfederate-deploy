@@ -70,7 +70,7 @@ in a private subnet — only the NLB is internet-facing. Restrict
 
 | Name | Source | Version |
 | ---- | ------ | ------- |
-| <a name="module_pingfederate"></a> [pingfederate](#module\_pingfederate) | git::https://github.com/craigsloggett/terraform-aws-pingfederate | v0.1.0 |
+| <a name="module_pingfederate"></a> [pingfederate](#module\_pingfederate) | git::https://github.com/craigsloggett/terraform-aws-pingfederate | v0.1.1 |
 
 ## Inputs
 
